@@ -15,7 +15,7 @@ void CPCMouseLook::Update()
 	mouseLookCam = cam;
 
 	if (!m_bEnableFreeCamera)
-		((void(__thiscall*)(CPCMouseLook*))0x1B8C140)(this);
+		((void(__thiscall*)(CPCMouseLook*))_addr(0x1B8C140))(this);
 
 	if (GetAsyncKeyState(eSettingsManager::keyToggleFreeCam) & 1)
 		m_bEnableFreeCamera ^= 1;
