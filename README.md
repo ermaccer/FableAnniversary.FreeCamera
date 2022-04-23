@@ -7,7 +7,7 @@ A simple plugin that adds/restores free camera functionality in the PC version o
 **Tested only with Steam version!**
 
 Download binary files from [Releases](https://github.com/ermaccer/FableAnniversary.FreeCamera/releases) and extract the .zip
-archive to root folder of Fable Anniversary.
+archive to Binaries\Win32 folder of Fable Anniversary.
 
 Archive breakdown:
 
